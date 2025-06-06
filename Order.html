@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+     <div class="order-container">
+    <h2>🛒 Order Your Cake</h2>
+    <form action="#">
+      <label for="name">👤 Full Name:</label>
+      <input type="text" id="name" placeholder="Your name..." required>
+
+      <label for="mobile">📱 Mobile Number:</label>
+      <input type="tel" id="mobile" placeholder="10-digit number..." required>
+
+      <!-- <label for="cake">🎂 Select Cake:</label>
+      <select id="cake" required>
+        <option value="">Choose one</option>
+        <option>Chocolate Cake</option>
+        <option>Strawberry Cake</option>
+        <option>Butterscotch Cake</option>
+        <option>Raspberry Cake</option>
+        <option>Custom Cake</option>
+      </select> -->
+      <label for="date">📅 Delivery Date:</label>
+      <input type="date" id="date" required>
+
+      <label for="address">📍 Full Address:</label>
+      <textarea id="address" rows="3" placeholder="House No, Street, Area, City, PIN Code" required>
+      </textarea>
+
+
+      <label for="msg">💬 Message (optional):</label>
+      <textarea id="msg" rows="3" placeholder="Write a note..."></textarea>
+
+      <button type="submit">Place Order</button>
+    </form>
+  </div>
+
+  <div class="footer">
+    📧 Contact: sweetbelem@gmail.com <br>
+    🌐 Created by <strong>Arpita</strong> | © 2025
+  </div>
+</body>
+</html>
